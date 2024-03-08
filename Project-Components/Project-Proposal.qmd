@@ -1,0 +1,47 @@
+---
+title: "Project Proposal"
+execute: 
+  warning: false
+date: "`r Sys.Date()`"
+---
+
+# Project Proposal
+
+## Abstract
+
+Our project focuses on analyzing seismic data sourced from the Japan Meteorological Agency (JMA), defining and earthequake event as seismic activity of significant magnitude within the Japan archipelago. This analysis involves performing Spatial Point Pattern analysis on earthquake occurrences within Japan.
+
+Our objective is to create a user-friendly web application that aids users to effortlessly perform kernel density estimation and spatial autocorrelation analysis. This tool aids in unravelling the intricate relationship between earthquake occurrences and discover underlying spatial trends with ease.
+
+This application provides users with accessible geospatial analysis outcomes on Japan’s seismic data without the need for programming skills.
+
+## Project Motivation
+
+Given Japan's location along the Pacific Ring of Fire, the country experiences frequent and intense earthquakes. This makes it crucial to examine the geospatial data related to seismic activity. Our goal is to study Japan's seismic data to uncover patterns in where earthquakes occur, pinpoint areas at higher risk, and further research could be done to understand how geological features might relate to these events.
+
+At the start of 2024, Japan was hit with a magnitude 7.5 earthquake and dozens of aftershocks were also recorded. This caused many residents being displaced and injured in the most affected areas. By leveraging spatial analysis techniques, we can provide insights that can inform proactive disaster management strategies, urban planning decision and infrastructure resilience in Japan. Keeping well-informed is a good way to minimise negative impacts in the event of a seismic activity.
+
+Performing such spatial analysis necessitates expertise in execution, including proficiency in data wrangling and cleaning to ensure accuracy. However, many users lack coding skills or familiarity with R packages, posing a challenge to understanding and conducting these analyses effectively. Consequently, developing an interactive application offers an accessible solution. Users can comprehend analysis findings and adjust parameters to suit their objectives without the lengthy execution processes.
+
+## Approach to task
+
+1.  Conducting Exploratory Data Analysis (EDA) provides users with contextual insights into the regions where frequent seismic activities occur.
+
+2.  Conduct a first-order spatial analysis
+
+    a.  Plotting kernel density estimation to visualize area with higher density of earthquake occurrences, identify hotspots
+
+3.  Conduct spatial autocorrelation analysis
+
+    a.  Global and Local Moran’s I statistical test to examine the degree of similarity between observations in a dataset based on their spatial proximity
+
+    b.  Identify specific areas of significant spatial clustering (hotspots and cold spots)
+
+4.  Spatio-temporal analysis to identify emerging hotspots
+
+## Data Source
+
+The data was sourced from [Japan Meteorological Agency’s](https://www.data.jma.go.jp/multi/quake/index.html?lang=jp) website that provides information about the date, location and magnitude of the recent Japan seismic activities from 7 February 2024 to 8 March 2024.
+
+\
+Data on the Japan boundary was downloaded from <https://www.gsi.go.jp/kankyochiri/gm_japan_e.html>.

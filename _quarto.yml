@@ -8,6 +8,10 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - text: "Project Components"
+        menu: 
+          - text: "Project Proposal"
+            href: "Project-Components/Project-Proposal.html"
 
 format:
   html:

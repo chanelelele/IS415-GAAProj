@@ -1,0 +1,16 @@
+---
+title: "Data Checking"
+execute: 
+  warning: false
+date: "`r Sys.Date()`"
+---
+
+# Checking data
+
+```{r}
+pacman::p_load(readxl, sf, tidyverse, tmap, sfdep, gifski, dplyr, lubridate, ggplot2, spdep, plotly)
+```
+
+```{r}
+eqJapan <- st_read(dsn = "data/knet_1530/accelerogram.json")
+```
