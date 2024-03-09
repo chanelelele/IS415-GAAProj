@@ -12,5 +12,5 @@ pacman::p_load(readxl, sf, tidyverse, tmap, sfdep, gifski, dplyr, lubridate, ggp
 ```
 
 ```{r}
-eqJapan <- st_read(dsn = "data/knet_1530/accelerogram.json")
+#eqJapan <- st_read(dsn = "data/knet_1530/accelerogram.json")
 ```
