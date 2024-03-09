@@ -12,5 +12,14 @@ pacman::p_load(readxl, sf, tidyverse, tmap, sfdep, gifski, dplyr, lubridate, ggp
 ```
 
 ```{r}
-#eqJapan <- st_read(dsn = "data/knet_1530/accelerogram.json")
+buildings <- st_read(dsn = "data/geospatial/gis_osm_buildings_a_free_1.shp")
 ```
+
+```{r}
+msiaHealthcare <- st_read(dsn = "data/geospatial/hotosm_mys_health_facilities_points_shp.shp")
+```
+```{r}
+plot(msiaHealthcare)
+```
+
+

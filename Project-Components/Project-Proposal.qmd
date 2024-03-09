@@ -35,7 +35,8 @@ Given JB's infrastructure differences compared to Kuala Lumpur (KL), particularl
 
 ## Data Source
 
-The data was sourced from [Japan Meteorological Agency’s](https://www.data.jma.go.jp/multi/quake/index.html?lang=jp) website that provides information about the date, location and magnitude of the recent Japan seismic activities from 7 February 2024 to 8 March 2024.
+The building and road data of Malaysia was sourced from [OpenStreetMap](https://download.geofabrik.de/asia/malaysia-singapore-brunei.html) that provides us with the residential buildings and road network in Malaysia.
 
-\
-Data on the Japan boundary was downloaded from <https://www.gsi.go.jp/kankyochiri/gm_japan_e.html>.
+Malaysia’s healthcare data was also sourced from [OpenStreetMap](https://data.humdata.org/dataset/hotosm_mys_health_facilities) that provides us with the address of all the healthcare facilities in Malaysia.
+
+The Malaysia boundary data was downloaded from .
