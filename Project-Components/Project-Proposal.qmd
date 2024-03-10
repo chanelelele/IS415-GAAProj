@@ -38,5 +38,3 @@ Given JB's infrastructure differences compared to Kuala Lumpur (KL), particularl
 The building and road data of Malaysia was sourced from [OpenStreetMap](https://download.geofabrik.de/asia/malaysia-singapore-brunei.html) that provides us with the residential buildings and road network in Malaysia.
 
 Malaysia’s healthcare data was also sourced from [OpenStreetMap](https://data.humdata.org/dataset/hotosm_mys_health_facilities) that provides us with the address of all the healthcare facilities in Malaysia.
-
-The Malaysia boundary data was downloaded from .
