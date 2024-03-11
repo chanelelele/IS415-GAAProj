@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-03-10">
 
-<title>IS415-GAAProj - Project Proposal</title>
+<title>IS415-GAAProj – project-proposal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,80 +109,52 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-proposal" id="toc-project-proposal" class="nav-link active" data-scroll-target="#project-proposal">Project Proposal</a>
-  <ul class="collapse">
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   <li><a href="#project-motivation" id="toc-project-motivation" class="nav-link" data-scroll-target="#project-motivation">Project Motivation</a></li>
-  <li><a href="#approach-to-task" id="toc-approach-to-task" class="nav-link" data-scroll-target="#approach-to-task">Approach to task</a></li>
+  <li><a href="#project-objectives" id="toc-project-objectives" class="nav-link" data-scroll-target="#project-objectives">Project Objectives</a></li>
   <li><a href="#data-source" id="toc-data-source" class="nav-link" data-scroll-target="#data-source">Data Source</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Project Proposal</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">March 10, 2024</p>
-    </div>
-  </div>
-    
-  </div>
-  
-
-</header>
-
-<section id="project-proposal" class="level1">
-<h1>Project Proposal</h1>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Our project focuses on analyzing the accessibility of healthcare facilities for residents in Malaysia.&nbsp;</p>
-<p>The objective of this project is to create a user-friendly web application that aids users to effortlessly perform kernel density estimation and model geographic accessibility. The web application will visualize the spatial distribution of healthcare facilities across our focus area using kernel density estimation techniques. This will provide insights into areas with high and low concentrations of healthcare services. Further modelling of geographic accessibility will also tell us how easy it is for residents to travel to these healthcare facilities from the residential areas.</p>
-<p>This application provides users with accessible geospatial analysis outcomes on Malaysia’s healthcare data without the need for programming skills.</p>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>Our project focuses on analyzing seismic data sourced from the Earthquake Repository managed by BMKG (an Indonesian non-departmental government agency). This repository contains earthquake events that occurred in Indonesia from 1 November 2008 to 15 December 2023.</p>
+<p>Our analysis involves performing spatio-temporal analysis to identify emerging hotspots for earthquakes. We aim to not only pinpoint regions experiencing frequent seismic activity but also to identify patterns of smaller earthquakes leading to the occurrence of larger seismic events. This aids in understanding the intricate relationship between earthquake occurrences and discovering underlying spatial trends with ease.</p>
+<p>Through this application, users can access geospatial analysis outcomes on Indonesia’s seismic data without the need for programming skills.</p>
 </section>
-<section id="project-motivation" class="level2">
-<h2 class="anchored" data-anchor-id="project-motivation">Project Motivation</h2>
-<p>Our project is motivated by the findings indicating that public hospitals in Johor Bahru (JB) provide commendable cleanliness, robust equipment, and friendly staff, as evidenced by research. Therefore, we seek to analyse the accessibility of these healthcare facilities to residents.&nbsp;</p>
-<p>Given JB’s infrastructure differences compared to Kuala Lumpur (KL), particularly in public transport, our project aims to conduct a comprehensive analysis of JB’s healthcare network accessibility and compare it with KL’s. KL’s better developed public transport system offers a perspective for understanding potential enhancements to healthcare accessibility in JB. By juxtaposing these two cities, our study aims to provide valuable insights to urban planners, facilitating informed decisions to improve healthcare accessibility for all residents.</p>
+<section id="project-motivation" class="level1">
+<h1>Project Motivation</h1>
+<p>Given Indonesia’s geographical location along the Pacific Ring of Fire, the country experiences frequent and intense earthquakes. It lies in the intersections with three major tectonic plates: the Indo-Australian Plate, the Eurasian Plate, and the Pacific Plate. The constant interaction of these plates, along with the interaction with several other minor plates such as the Philippine Sea plate and the Caroline plate, amplifies the geological complexity of the region. This makes it crucial to examine the geospatial data related to seismic activity. We aim to also use this data to conduct further research to understand how geological features might relate to these events.</p>
+<p>Earthquakes in Indonesia often strike in densely populated areas, causing many people to lose their homes, livelihoods and property. By leveraging spatial analysis techniques, we can provide insights that can inform proactive disaster management strategies, urban planning decisions and infrastructure resilience in Indonesia. Keeping well-informed is a good way to minimise negative impacts in the event of a seismic activity.&nbsp;</p>
+<p>Furthermore, earthquakes are often met with foreshocks and aftershocks of smaller magnitudes, which can be analysed to understand the spatial patterns and predict coming shocks. This includes identifying areas prone to high levels of seismic activity and implementing building codes and infrastructure improvements to reduce the impact of earthquakes on communities.</p>
+<p>Performing such spatial analysis necessitates expertise in execution, including proficiency in data wrangling and cleaning to ensure accuracy. However, many users lack coding skills or familiarity with R packages, posing a challenge to understanding and conducting these analyses effectively. Consequently, developing an interactive application offers an accessible solution. Users can comprehend analysis findings and adjust parameters to suit their objectives without the lengthy execution processes.</p>
 </section>
-<section id="approach-to-task" class="level2">
-<h2 class="anchored" data-anchor-id="approach-to-task">Approach to task</h2>
+<section id="project-objectives" class="level1">
+<h1>Project Objectives</h1>
 <ol type="1">
-<li>Conducting Exploratory Data Analysis (EDA) provides users with contextual insights into the regions where frequent seismic activities occur.</li>
-<li>Conduct a first-order spatial analysis
-<ol type="a">
-<li>Plotting kernel density estimation to visualize area with higher density of earthquake occurrences, identify hotspots</li>
-</ol></li>
-<li>Conduct second-order spatial analysis
-<ol type="a">
-<li>To learn whether the locations of healthcare facilities in Malaysia is randomly distributed or clustered and find out which areas are the facilities highly concentrated at</li>
-</ol></li>
-<li>Modelling geographical accessibility
-<ol type="a">
-<li><p>to compute accessibility measure by using Hansen’s potential model and Spatial Accessibility Measure (SAM)</p></li>
-<li><p>Visualise the accessibility measure using tmap and ggplot2 packages</p></li>
-</ol></li>
+<li><p>Conducting Exploratory Data Analysis (EDA) provides users with contextual insights into the regions where frequent seismic activities occur.</p></li>
+<li><p>Conduct spatial autocorrelation analysis</p>
+<ul>
+<li><p>Global and Local Moran’s I statistical test to examine the degree of similarity between observations in a dataset based on their spatial proximity</p></li>
+<li><p>Identify specific areas of significant spatial clustering (hotspots and cold spots)</p></li>
+</ul></li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Spatio-temporal analysis to identify emerging hotspots</li>
 </ol>
 </section>
-<section id="data-source" class="level2">
-<h2 class="anchored" data-anchor-id="data-source">Data Source</h2>
-<p>The building and road data of Malaysia was sourced from <a href="https://download.geofabrik.de/asia/malaysia-singapore-brunei.html">OpenStreetMap</a> that provides us with the residential buildings and road network in Malaysia.</p>
-<p>Malaysia’s healthcare data was also sourced from <a href="https://data.humdata.org/dataset/hotosm_mys_health_facilities">OpenStreetMap</a> that provides us with the address of all the healthcare facilities in Malaysia.</p>
+<section id="data-source" class="level1">
+<h1>Data Source</h1>
+<p>This <a href="https://github.com/kekavigi/repo-gempa">Earthquake dataset</a> is taken from the Earthquake Repository managed by BMKG (an Indonesian non-departmental government agency).&nbsp; It contains earthquake event data from 1 Nov 2008 to 15 Dec 2023, but may not be accurate for some of the last earthquake events recorded.&nbsp;</p>
+<p>Indonesia’s Subnational Administrative Boundaries extracted from <a href="https://data.humdata.org/dataset/cod-ab-idn?force_layout=desktop">HDX</a>.&nbsp;</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
